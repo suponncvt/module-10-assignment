@@ -1,0 +1,293 @@
+/* Global Css */
+* {
+  margin: 0;
+  padding: 0;
+}
+section {
+  padding: 75px 0px;
+}
+.golobal-heading {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 30pt;
+}
+.global-para {
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 300;
+  font-size: 13pt;
+}
+.no-padding {
+  padding: 0 !important;
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+a:hover {
+  text-decoration: none;
+  color: white;
+}
+/* Image Hover Icon */
+.icon-parent {
+  position: relative;
+  width: 100%;
+}
+.icon-parent:hover .icon-child {
+  opacity: 1;
+}
+.icon-child {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.3s ease;
+  background-color: rgb(87 86 90 / 69%);
+  text-align: center;
+}
+.icon {
+  font-size: 50px;
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+/* Header Css */
+.nav-icon {
+  color: black;
+  font-size: 30px;
+}
+nav ul li a {
+  font-weight: 500;
+  color: black !important;
+}
+nav ul li a:hover {
+  font-weight: 600;
+  color: #10c9c3 !important;
+}
+nav ul li a:active {
+  color: #10c9c3 !important;
+}
+.Hero {
+  background: url(../img/home-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 650px;
+}
+.hero-writing {
+  box-sizing: border-box;
+  padding-top: 175px;
+}
+.btn {
+  background: #10c9c3;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  font-size: 10pt;
+  padding: 10px 20px;
+  width: 150px;
+  border: none;
+  color: white;
+  transition: 0.2s ease-in-out;
+}
+.btn:hover {
+  box-shadow: 0px 2px 2px 0px #0c2c2ba3;
+  color: white;
+  font-weight: 600;
+}
+/* About Section */
+.about p {
+  margin: 35px 0px;
+}
+/* Skill Section */
+.skill {
+  background: url(../img/skill-bg.jpg) no-repeat;
+  background-size: cover;
+  background-position: right;
+  padding: 0px;
+}
+.skill-bg-color {
+  background-color: rgb(95 93 93 / 42%);
+  padding: 75px 0px;
+}
+/* Number Section */
+.number {
+  background: #10c9c3;
+  color: white;
+}
+.number img {
+  display: block;
+  margin: 5px auto;
+  height: 50px;
+}
+/* Img Section */
+.img-section {
+  padding: 0;
+}
+.load-more {
+  background-color: aliceblue;
+  color: gray;
+  padding: 25px;
+  text-align: center;
+}
+.load-more a {
+  text-decoration: none;
+  text-align: center;
+  font-weight: 700;
+  color: gray;
+}
+.load-more a:hover {
+  text-decoration: none;
+}
+/* Work Section */
+.video-parent {
+  background: url(../img/video.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  height: 500px;
+}
+img.video-chile {
+  margin-top: 190px;
+}
+/* Service Section */
+.service {
+  background: #f5f5f5;
+}
+/* Testimonials */
+.testimonials {
+  background: #10c9c3;
+  padding-top: 50px;
+  padding-bottom: 0px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  display: none;
+}
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
+/* owl Carousel */
+.section-padding {
+  padding: 60px 0;
+}
+.brand-carousel {
+  background: #eee;
+  margin-top: 15%;
+}
+.owl-dots {
+  text-align: center;
+  margin-top: 4%;
+}
+.owl-dot {
+  display: inline-block;
+  height: 15px !important;
+  width: 15px !important;
+  background-color: #878787 !important;
+  opacity: 0.8;
+  border-radius: 50%;
+  margin: 0 5px;
+}
+.owl-dot.active {
+  background-color: #000 !important;
+}
+/* Contact Section */
+.contact {
+  text-align: center;
+  background: #f5f5f5;
+}
+
+input {
+  padding: 10px;
+  border: none;
+}
+.input-one {
+  width: 47%;
+}
+.input-one-margin {
+  width: 48%;
+  margin-right: 4%;
+}
+.input-two {
+  width: 100%;
+  margin: 4% 0px;
+}
+textarea {
+  padding: 10px;
+  border: none;
+  width: 100%;
+  margin-bottom: 4%;
+}
+/* Footer */
+footer {
+  background: black;
+  padding: 75px 0px;
+}
+footer p {
+  color: white;
+  text-align: left;
+  font-size: 15px;
+  margin: 5px 0px;
+}
+/* Contact page  */
+main .contact {
+  background: #f5f5f5;
+}
+p b {
+  color: black;
+  font-weight: bold;
+}
+.map {
+  text-align: center;
+  padding: 50px 0px;
+  width: 100%;
+}
+.form-part {
+  text-align: left !important;
+}
+/* About Page */
+.about-Hero {
+  background: url(../img/header-about-me.jpg) no-repeat;
+  background-size: cover;
+  text-align: center;
+  background-position: center;
+  padding: 0px;
+}
+.about-bg {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 125px 0px;
+}
+.about-writing {
+  color: white;
+}
+.about-me-img {
+  background: url(../img/about-me.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.about-me-writing {
+  padding: 100px 30px;
+  background-color: #f5f5f5;
+}
+.about-me-writing p {
+  margin: 20px 0px;
+}
+.about-me {
+  padding: 0px;
+}
+.talk {
+  padding: 100px 0px;
+}
+.portfolio-Hero {
+  background: #f5f5f5;
+  text-align: center;
+  color: #000;
+}
